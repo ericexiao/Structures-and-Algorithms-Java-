@@ -44,7 +44,7 @@ public class MergeSort {
     public static void main(String[] args) {
         Integer[] sortThis = {10, 9 , 8, 3, 6, 5 , 4, 3, 2, 1};
         Integer[] worker = new Integer[sortThis.length];
-        
+
         mergeSort(sortThis, 0, sortThis.length, worker);
         for(int i = 0; i < sortThis.length; i++) {
             System.out.print(sortThis[i] + " ");
