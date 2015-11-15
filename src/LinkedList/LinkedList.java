@@ -59,6 +59,9 @@ public class LinkedList {
 
     }
 
+    /*
+     * Deletes first instance of ListNode with Integer i if there is one.`
+     */
     public void delete(Integer i) {
 
     }
